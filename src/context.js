@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { isContext } from 'vm';
+// import { isContext } from 'vm';
 
 const Context = React.createContext();
 
@@ -14,9 +14,9 @@ export class Provider extends Component {
     }    
     render() {
     return (
-      <isContext.Provider value={this.state}>
+        <Context.Provider value={this.state}>
         {this.props.children}
-      </isContext.Provider>
+        </Context.Provider>      
     )
   }
 }
