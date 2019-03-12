@@ -10,6 +10,14 @@ export class Provider extends Component {
         heading: 'Top ten tracks'
     }
     componentDidMount(){
+        // start at 39:19
+        // JSON WEB TOKEN TO GENERATE AN AUTH
+        // PREGUNTA PARA CHARLA ANTES DEL EJERCICIO
+        // DIFERENCIA ENTRE TIPOS DE COMPONENTES QUE SE PUEDEN CREAR CON REACT
+        // SINTAXIS QUE SE PUEDEN ENCONTRAR
+        // EXPLICACIÓN Y MANEJO DE LAS PROPS EN REACT Y COMO DEESTRUCTURAR UN SET DE PROPS
+        // DIFERENCIA ENTRE CONTEXT API Y REDUX LIBRARY
+    
         axios
         .get(
             `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=1&page_size=10&country=us&f_has_lyrics=1&apikey=${
