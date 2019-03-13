@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-        <Router basename="components">
+        <Router>
         <>
           <NavBar />
           <div className="container">
