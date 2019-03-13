@@ -2,8 +2,13 @@
   "name": "music_app_react",
   "version": "0.1.0",
   "private": true,
+  "scripts":{
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://Tbars84.github.io/music_app_react",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
