@@ -14,6 +14,7 @@ class App extends Component {
         <>
           <NavBar />
           <div className="container">
+            <div>Hello World</div>
             <Switch>
               <Route exact path="/" component={Index} />
               <Route path="/lyrics/track/:id" component={Lyrics} />
