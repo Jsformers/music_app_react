@@ -13,7 +13,6 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
-  "homepage": "https://tbars84.github.io/music_app_react/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -21,6 +20,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://tbars84.github.io/music_app_react/",
   "eslintConfig": {
     "extends": "react-app"
   },
